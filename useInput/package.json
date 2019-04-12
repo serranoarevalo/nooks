@@ -1,0 +1,13 @@
+{
+  "name": "@nooks/useInput",
+  "version": "1.0.0",
+  "description": "React Hook to use text inputs in React",
+  "main": "index.js",
+  "repository": "https://github.com/serranoarevalo/nooks/",
+  "author": "Nicolás Serrano Arévalo <itnico.las.me@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}
