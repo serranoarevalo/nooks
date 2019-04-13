@@ -1,6 +1,6 @@
-export function useInput(initialValue, validator) {
+export const useInput = (initialValue, validator) => {
   const [value, setValue] = useState(initialValue);
-  function onChange(event) {
+  const onChange = event => {
     const {
       target: { value: newValue }
     } = event;
@@ -11,9 +11,9 @@ export function useInput(initialValue, validator) {
     if (shouldUpdate) {
       setValue(newValue);
     }
-  }
+  };
   return {
     props: { value, onChange },
     utils: { setValue }
   };
-}
+};

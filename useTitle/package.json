@@ -1,7 +1,7 @@
 {
-  "name": "@nooks/use-input",
+  "name": "@nooks/use-title",
   "version": "1.0.0",
-  "description": "React Hook to update and validate text inputs",
+  "description": "React Hook to change the document title",
   "main": "index.js",
   "repository": "https://github.com/serranoarevalo/nooks/",
   "author": "Nicolás Serrano Arévalo <itnico.las.me@gmail.com>",

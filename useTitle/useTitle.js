@@ -1,4 +1,4 @@
-export function useTitle(initialTitle) {
+export const useTitle = initialTitle => {
   const [title, setTitle] = useState(initialTitle);
   function updateTitle() {
     const titleHtml = document.querySelector("title");
@@ -8,4 +8,4 @@ export function useTitle(initialTitle) {
     updateTitle();
   }, [title]);
   return setTitle;
-}
+};
