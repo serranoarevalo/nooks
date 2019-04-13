@@ -9,7 +9,7 @@ Collection of sexy React Hooks ready to install with NPM
 - [x] useClick
 - [x] useFadeIn
 - [x] useFullscreen
-- [ ] useHover
+- [x] useHover
 - [ ] useNetwork
 - [ ] useNotification
 - [ ] useScroll
@@ -17,3 +17,4 @@ Collection of sexy React Hooks ready to install with NPM
 - [ ] useVisible
 - [ ] useAxios
 - [ ] usePreventLeave
+- [ ] useConfirmAction
