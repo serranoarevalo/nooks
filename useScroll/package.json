@@ -1,0 +1,13 @@
+{
+  "name": "@nooks/use-scroll",
+  "version": "1.0.0",
+  "description": "React Hook to detect scroll events on the document",
+  "main": "index.js",
+  "repository": "https://github.com/serranoarevalo/nooks/",
+  "author": "Nicolás Serrano Arévalo <itnico.las.me@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}
