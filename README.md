@@ -15,5 +15,5 @@ Collection of sexy React Hooks ready to install with NPM
 - [x] useScroll
 - [x] useTabs
 - [x] usePreventLeave
-- [ ] useConfirmAction
+- [x] useConfirm
 - [ ] useAxios

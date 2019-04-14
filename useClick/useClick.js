@@ -1,4 +1,4 @@
-const useClick = onClick => {
+export const useClick = onClick => {
   if (!onClick || typeof onClick !== "function") {
     return;
   }
