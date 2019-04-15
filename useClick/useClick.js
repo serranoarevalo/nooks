@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 export const useClick = onClick => {
   if (!onClick || typeof onClick !== "function") {
     return;
